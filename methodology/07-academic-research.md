@@ -70,3 +70,43 @@ This research formed the basis of the 8-signal negative detection system used in
 | KDD 2024 (Princeton) | Apply the 47 citation strategies ranked by impact |
 | ICLR 2026 (CMU) | Understand platform-specific optimization |
 | EMNLP 2024 (Berkeley) | Audit your content for negative signals |
+
+---
+
+## 2026 Research Updates
+
+### C-SEO Bench: Does Conversational SEO Work? (NeurIPS 2025)
+
+**Paper:** [arXiv:2506.11097](https://arxiv.org/abs/2506.11097)
+**Venue:** NeurIPS D&B 2025
+
+Introduces a benchmark for evaluating conversational SEO effectiveness. Empirical evidence that conversational content strategies significantly influence AI search rankings.
+
+### IF-GEO: Conflict-Aware Instruction Fusion (2026)
+
+**Paper:** [arXiv:2601.13938](https://arxiv.org/abs/2601.13938)
+
+Addresses multi-query GEO optimization — fusing potentially conflicting optimization instructions for different AI engines simultaneously.
+
+### Multimodal GEO (2026)
+
+**Paper:** [arXiv:2601.12263](https://arxiv.org/abs/2601.12263)
+
+Extends GEO to vision-language model rankers — optimizing content for multimodal AI search.
+
+### Source Composition Analysis of 167,551 Citations (2026)
+
+**Paper:** [doi:10.5281/zenodo.20788142](https://doi.org/10.5281/zenodo.20788142) (Rankfor.AI)
+
+Analysis of which source types, domains, and formats are most frequently cited by AI search platforms.
+
+### Additional Papers
+
+| Year | Paper | Link |
+|------|-------|------|
+| 2026 | Navigating the Shift: Web Search vs Generative AI | [arXiv:2601.16858](https://arxiv.org/abs/2601.16858) |
+| 2025 | Beyond SEO: Transformer-Based Content Optimization | [ChatPaper](https://chatpaper.com/chatpaper/paper/158775) |
+| 2025 | StealthRank: LLM Ranking Manipulation | [arXiv:2504.05804](https://arxiv.org/abs/2504.05804) |
+| 2025 | NExT-Search: User Feedback for Generative AI Search | [arXiv:2505.14680](https://arxiv.org/abs/2505.14680) |
+| 2024 | Ranking Manipulation for Conversational Search Engines | [arXiv:2406.03589](https://arxiv.org/abs/2406.03589) |
+| 2024 | Manipulating LLMs to Increase Product Visibility | [arXiv:2404.07981](https://arxiv.org/abs/2404.07981) |
