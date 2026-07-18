@@ -41,6 +41,24 @@ User-agent: CCBot
 Disallow: /
 
 # ============================================
+# Additional Training Bots
+# ============================================
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# ============================================
+# AI Chat Browsing Bots (Allow)
+# These bots let users browse the web through AI chat interfaces.
+# ============================================
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ============================================
 # General Crawlers
 # ============================================
 
@@ -63,6 +81,7 @@ Sitemap: https://yoursite.com/sitemap.xml
 | `GPTBot` | GPT model training data | ❌ Training |
 | `anthropic-ai` | Claude model training | ❌ Training |
 | `CCBot` | Common Crawl (used for training) | ❌ Training |
+| `ChatGPT-User` | ChatGPT user web browsing | ✅ Citation |
 | `Applebot-Extended` | Apple AI training | ❌ Training |
 | `Meta-ExternalFetcher` | Meta AI training | ❌ Training |
 

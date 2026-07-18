@@ -147,6 +147,208 @@ Negative GEO signal #6 is **missing author signal**. AI engines check for Person
 
 ---
 
+## Product Schema
+
+### When to Use
+
+- Product pages, e-commerce listings
+- Digital products, SaaS, tools
+- Any page with pricing, features, or reviews
+
+### Template
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Product Name",
+  "description": "Brief product description with key features.",
+  "offers": {
+    "@type": "Offer",
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Verified Buyer"
+      }
+    }
+  ]
+}
+</script>
+```
+
+### Key Fields for GEO
+
+| Field | Importance | Why |
+|-------|-----------|-----|
+| `name` | Required | Product identification for AI extraction |
+| `description` | Required | Used in AI summaries and comparisons |
+| `offers.price` | Required | AI engines cite pricing in comparisons |
+| `aggregateRating` | Recommended | Social proof signal for AI credibility |
+| `brand` | Recommended | Brand entity association |
+
+### GEO Impact
+
+Product schema with pricing and review data is frequently cited by AI engines when users ask comparison questions ("best X vs Y", "how much does X cost"). Without it, AI engines may guess or cite competitor data.
+
+---
+
+## LocalBusiness Schema
+
+### When to Use
+
+- Physical storefronts, restaurants, service areas
+- Local service providers (plumbers, dentists, lawyers)
+- Any business with a physical location
+
+### Template
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Business Name",
+  "description": "Brief description of your local business.",
+  "url": "https://example.com",
+  "telephone": "+1-555-123-4567",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main St",
+    "addressLocality": "City",
+    "addressRegion": "State",
+    "postalCode": "12345",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "priceRange": "$$"
+}
+</script>
+```
+
+### GEO Impact
+
+LocalBusiness schema is critical for local AI search. Google AI Overviews and Gemini frequently pull location, hours, and contact info from LocalBusiness schema for local queries. Perplexity also cites this data for "near me" searches.
+
+---
+
+## BreadcrumbList Schema
+
+### When to Use
+
+- Every page with a navigation breadcrumb trail
+- All content sites with hierarchical structure
+
+### Template
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://example.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Category",
+      "item": "https://example.com/category"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Current Page",
+      "item": "https://example.com/category/page"
+    }
+  ]
+}
+</script>
+```
+
+### GEO Impact
+
+BreadcrumbList helps AI engines understand site hierarchy and page context. It's used by Google AI Overviews for source attribution and by ChatGPT Search for understanding content relationships. Low effort, high ROI.
+
+---
+
+## WebApplication Schema
+
+### When to Use
+
+- Calculator tools
+- Interactive web apps
+- SaaS products
+- Online tools and utilities
+
+### Template
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Tool Name",
+  "description": "What the tool does, key inputs, and outputs.",
+  "operatingSystem": "Web",
+  "browserRequirements": "Requires JavaScript",
+  "applicationCategory": "BusinessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Author Name"
+  }
+}
+</script>
+```
+
+### GEO Impact
+
+WebApplication schema helps AI engines identify and describe your tools. ChatGPT Search and Perplexity frequently cite tools with proper schema when answering "What's the best tool for X?" or "How to calculate Y?" queries.
+
+---
+
+## Schema Type Selection Guide
+
+| Content Type | Primary Schema | Secondary Schema |
+|-------------|---------------|------------------|
+| Blog post / article | Article | FAQPage, BreadcrumbList |
+| Product page | Product | FAQPage, BreadcrumbList |
+| Business homepage | Organization | LocalBusiness (if physical) |
+| FAQ page | FAQPage | BreadcrumbList |
+| How-to guide | HowTo | FAQPage, BreadcrumbList |
+| Calculator / tool | WebApplication | HowTo, FAQPage |
+| Local business | LocalBusiness | Organization, FAQPage |
+| Documentation | Article | BreadcrumbList, FAQPage |
+
+---
+
 ## Schema Placement
 
 ### Static HTML Sites
