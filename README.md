@@ -16,6 +16,14 @@
 
 Coined in the paper [*GEO: Generative Engine Optimization*](https://arxiv.org/abs/2311.09735) (KDD 2024), GEO addresses a fundamental shift: users increasingly get answers from AI-generated responses rather than blue links. Traditional SEO targets ranking in link lists; GEO targets **being cited as a source** in AI-generated answers.
 
+---
+
+## 🖼️ At a Glance
+
+| GEO vs SEO | GEO Audit Framework | 47 Citation Strategies |
+|:---:|:---:|:---:|
+| ![GEO vs SEO](assets/images/geo-vs-seo.png) | ![GEO Audit Framework](assets/images/geo-audit-framework.png) | ![47 Citation Strategies](assets/images/47-citation-strategies.png) |
+
 ## 🎯 Why GEO Matters in 2026
 
 | Stat | Source |
@@ -111,6 +119,11 @@ geo-optimization-handbook/
 │   ├── 02-faqpage-howto-schema.md
 │   ├── 03-blogger-geo.md
 │   └── 04-small-business-geo.md 🆕
+├── assets/
+│   └── images/
+│       ├── geo-vs-seo.png
+│       ├── geo-audit-framework.png
+│       └── 47-citation-strategies.png
 ├── checklists/
 │   ├── pre-publish-checklist.md
 │   └── audit-scoring.md
