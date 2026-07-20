@@ -144,6 +144,12 @@ geo-optimization-handbook/
 - 📊 Updated statistics with latest 2026 data across all chapters
 - 🔬 Added recent research: C-SEO Bench (NeurIPS 2025), IF-GEO, Multimodal GEO papers
 
+## 🛠️ Built with This Handbook
+
+| Project | Description |
+|---------|-------------|
+| [GeoScore](https://geoscore.help/) | Free GEO audit tool — scores your site 0–100 across 12 dimensions, generates llms.txt, robots.txt, and JSON-LD fixes. Built from this handbook's methodology. |
+
 ## 🤝 Contributing
 
 GEO is a rapidly evolving field. This handbook aims to stay current with the latest research and platform changes. Contributions welcome!
