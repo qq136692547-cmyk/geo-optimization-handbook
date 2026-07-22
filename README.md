@@ -28,13 +28,17 @@ Coined in the paper [*GEO: Generative Engine Optimization*](https://arxiv.org/ab
 
 | Stat | Source |
 |------|--------|
-| ChatGPT has **400M+ weekly active users** with AI search built-in | OpenAI (2026) |
-| Google AI Overviews now covers **1B+ queries/month** | Google |
+| ChatGPT has **900M+ weekly active users** (1B+ monthly) with AI search built-in | DemandSage / OpenAI (Jul 2026) |
+| Google AI Overviews now reaches **2B+ users/month** across 200+ countries | Google I/O 2026 |
+| Google AI Mode surpassed **1B monthly active users** within a year of launch | Google I/O 2026 |
+| AI Overviews appear on **48% of all search queries**, reducing organic CTR by 58–61% | Stacc / Conductor (Jul 2026) |
+| Gemini app has **750M+ monthly active users** | Google (Jul 2026) |
 | **40%+ visibility improvement** possible with GEO strategies | KDD 2024 / ICLR 2026 |
 | **28.3%** of ChatGPT's most-cited pages have **zero Google organic visibility** | Ahrefs |
 | Correct JSON-LD schema boosts LLM extraction from **16% to 54%** | Semrush |
 | AI search queries average **23 words** (vs 4 for traditional search) | Multiple studies |
-| **Growing share of searches never reach blue links** in 2026 | SMDigital Partners |
+| ChatGPT referral traffic converts at **15.9%** (vs Google's 1.76%) | Conductor 2026 Benchmarks |
+| **97% of companies** report positive AEO impact; **94% plan to increase investment** | Conductor State of AEO 2026 |
 | GEO can **rank your content in ChatGPT in 14 days** | OtterlyAI experiment |
 
 ## 📚 Contents
@@ -140,9 +144,10 @@ geo-optimization-handbook/
 
 ## What's New (July 2026)
 
+- 📊 **Data refresh**: ChatGPT 400M→900M weekly users, Google AIO 1B→2B users, added AI Mode (1B), Gemini (750M), Conductor benchmarks
 - 🆕 **New guide**: [GEO for Small Businesses](./practical-guides/04-small-business-geo.md) — zero-click search survival guide for 2026
-- 📊 Updated statistics with latest 2026 data across all chapters
-- 🔬 Added recent research: C-SEO Bench (NeurIPS 2025), IF-GEO, Multimodal GEO papers
+- 🔬 Added recent research: C-SEO Bench (NeurIPS 2025), IF-GEO, Multimodal GEO papers, Conductor 2026 AEO/GEO Benchmarks
+- 🛠️ **Built with this handbook**: [GeoScore](https://geoscore.help/) — free GEO audit tool
 
 ## 🛠️ Built with This Handbook
 
@@ -168,6 +173,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 | [llmstxt.org](https://llmstxt.org) | Specification | llms.txt standard for AI crawlers |
 | [Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-content) | Documentation | AI content and search |
 | [SEMrush GEO Guide](https://www.semrush.com/blog/generative-engine-optimization/) | Industry Guide | Practical GEO strategies |
+| [Conductor 2026 AEO/GEO Benchmarks](https://www.conductor.com/academy/aeo-geo-benchmarks-report/) | Industry Report | First large-scale AI visibility analysis across 10 industries |
+| [Conductor State of AEO/GEO 2026](https://www.conductor.com/academy/state-of-aeo-geo-report/) | Industry Report | CMO investment trends: 97% positive impact, 94% increasing investment |
 | [OtterlyAI GEO Experiment](https://otterly.ai/blog/from-zero-to-rank7-ai-search-in-14days/) | Case Study | #7 in ChatGPT in 14 days |
 
 ## 📄 License

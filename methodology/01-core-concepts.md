@@ -28,12 +28,16 @@ This is not a replacement for SEO — it's a complement. Good SEO practices (tec
 
 ## Why GEO Matters
 
-- **ChatGPT** has 400M+ weekly active users, with AI search built in (OpenAI 2026)
-- **Google AI Overviews** covers 1B+ queries monthly
+- **ChatGPT** has 900M+ weekly active users (1B+ monthly), with AI search built in (DemandSage / OpenAI Jul 2026)
+- **Google AI Overviews** reaches 2B+ users monthly across 200+ countries (Google I/O 2026)
+- **Google AI Mode** surpassed 1B monthly active users within a year of launch (Google I/O 2026)
+- **Gemini app** has 750M+ monthly active users (Google Jul 2026)
+- AI Overviews appear on **48% of all search queries**, reducing organic CTR by 58–61% (Stacc / Conductor Jul 2026)
 - **28.3%** of ChatGPT's most-cited pages have zero Google organic visibility (Ahrefs)
 - GEO strategies can improve visibility by **up to 40%** (KDD 2024) and rank in ChatGPT in **as little as 14 days** (OtterlyAI 2026)
 - Correct JSON-LD structured data improves LLM extraction accuracy from **16% to 54%** (Semrush)
-- A **growing share of 2026 searches never reach blue links** — zero-click answers are the new normal
+- ChatGPT referral traffic converts at **15.9%** versus Google's 1.76% (Conductor 2026)
+- **97% of companies** report positive AEO impact; 94% plan to increase investment (Conductor 2026)
 
 ## The Three Pillars of GEO
 

@@ -13,7 +13,9 @@ Each AI search platform has different behavior, source preferences, and optimiza
 - AI Overviews appear when Google determines they add value beyond traditional search results
 - Uses **query fan-out** technology to decompose complex queries
 - Cites 3-5 sources in each overview
-- AI Mode (launched 2025) provides deeper AI-generated responses
+- **AI Mode** (launched 2025) provides deeper AI-generated responses; surpassed **1B monthly active users** by mid-2026
+- AI Overviews now reach **2B+ users/month** across 200+ countries and 40+ languages (Google I/O 2026)
+- Appear on **48% of all search queries** (Stacc Jul 2026)
 
 ### Optimization Tips
 
