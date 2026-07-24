@@ -29,16 +29,16 @@ Coined in the paper [*GEO: Generative Engine Optimization*](https://arxiv.org/ab
 | Stat | Source |
 |------|--------|
 | ChatGPT has **900M+ weekly active users** (1B+ monthly) with AI search built-in | DemandSage / OpenAI (Jul 2026) |
-| Google AI Overviews now reaches **2B+ users/month** across 200+ countries | Google I/O 2026 |
+| Google AI Overviews now reaches **2B+ users/month** across 200+ countries | Google (Jul 2025) |
 | Google AI Mode surpassed **1B monthly active users** within a year of launch | Google I/O 2026 |
-| AI Overviews appear on **48% of all search queries**, reducing organic CTR by 58–61% | Stacc / Conductor (Jul 2026) |
+| AI Overviews appear on **48% of all search queries**, reducing organic CTR by 58–61% | Stacc (Jul 2026) |
 | Gemini app has **750M+ monthly active users** | Google (Jul 2026) |
-| **40%+ visibility improvement** possible with GEO strategies | KDD 2024 / ICLR 2026 |
+| **up to 40% visibility improvement** possible with GEO strategies | KDD 2024 / ICLR 2026 |
 | **28.3%** of ChatGPT's most-cited pages have **zero Google organic visibility** | Ahrefs |
 | Correct JSON-LD schema boosts LLM extraction from **16% to 54%** | Semrush |
 | AI search queries average **23 words** (vs 4 for traditional search) | Multiple studies |
 | ChatGPT referral traffic converts at **15.9%** (vs Google's 1.76%) | Conductor 2026 Benchmarks |
-| **97% of companies** report positive AEO impact; **94% plan to increase investment** | Conductor State of AEO 2026 |
+| **97% of enterprise marketing leaders** report positive AEO impact; **94% plan to increase investment** | Conductor State of AEO 2026 |
 | GEO can **rank your content in ChatGPT in 14 days** | OtterlyAI experiment |
 
 ## 📚 Contents

@@ -63,7 +63,7 @@ https://github.com/qq136692547-cmyk/geo-optimization-handbook/blob/main/practica
 The 5-step plan is dead simple:
 1. Answer real customer questions (not generic "about us" content)
 2. Structure pages for AI extraction (H1 → H2 → FAQ → Author attribution)
-3. Add 5 lines of code (FAQPage schema)
+3. Add a few lines of JSON-LD (FAQPage schema)
 4. Cite authoritative sources
 5. Build a trust stack (author bios, reviews, credentials)
 
